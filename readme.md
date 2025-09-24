@@ -90,6 +90,9 @@ If a request is sent to an endpoint that does not exist, an error 404 is returne
 }
 ```
 
+## 🔴 Live API
+The service is currently hosted on [Render](https://render.com). The base URL you need to prefix your requests with is `https://komputer-store-express-api.onrender.com`, for example: https://komputer-store-express-api.onrender.com/computers.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

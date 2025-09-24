@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "title": "Classic Notebook",
+        "description": "A little old, but turns on.",
+        "specs": [
+            "Has a screen",
+            "Keyboard works, mostly",
+            "32MB Ram (Not upgradable)",
+            "6GB Hard Disk",
+            "Comes with Floppy Disk Reader (Free) - Requires cable",
+            "Good exercise to carry"
+        ],
+        "price": 200,
+        "stock": 1,
+        "active": true,
+        "image": "https://vignette.wikia.nocookie.net/ipod/images/c/c1/Mac_11.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Vintage Desktop",
+        "description": "A relic from the past, still chugging along.",
+        "specs": [
+            "Massive CRT Monitor",
+            "Clicky Keyboard",
+            "128MB Ram (Upgradable)",
+            "20GB Hard Disk",
+            "5.25-inch Floppy Disk Drive",
+            "Requires a screwdriver to open"
+        ],
+        "price": 350,
+        "stock": 2,
+        "active": true,
+        "image": "https://americanhistory.si.edu/sites/default/files/JN2019-00469%201.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Early 2000s Laptop",
+        "description": "A portable powerhouse of its time.",
+        "specs": [
+            "14-inch LCD Screen",
+            "Comfortable Keyboard",
+            "256MB Ram (Upgradable)",
+            "40GB Hard Disk",
+            "DVD-ROM Drive",
+            "Heavy as a brick"
+        ],
+        "price": 150,
+        "stock": 3,
+        "active": true,
+        "image": "https://i0.wp.com/boingboing.net/wp-content/uploads/2021/04/csm_IMG_3225_intro_8e05b7de4a.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Mid-2000s Gaming Rig",
+        "description": "A beast for its time, still capable of running classic games.",
+        "specs": [
+            "19-inch LCD Monitor",
+            "Mechanical Keyboard",
+            "1GB Ram (Upgradable)",
+            "120GB Hard Disk",
+            "DVD-RW Drive",
+            "Loud and proud"
+        ],
+        "price": 400,
+        "stock": 1,
+        "active": true,
+        "image": "https://qvc.scene7.com/is/image/QVC/e/17/e91217.001"
+    },
+    {
+        "id": 5,
+        "title": "Late 2000s Netbook",
+        "description": "A tiny but mighty machine for basic tasks.",
+        "specs": [
+            "10-inch Screen",
+            "Mini Keyboard",
+            "1GB Ram",
+            "64GB SSD",
+            "No optical drive",
+            "Surprisingly good battery life"
+        ],
+        "price": 80,
+        "stock": 5,
+        "active": true,
+        "image": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/11935927/image/d85be0731c9da326e338fcd04067a851"
+    },
+    {
+        "id": 6,
+        "title": "Early 2010s Ultrabook",
+        "description": "A sleek and portable laptop for work and play.",
+        "specs": [
+            "13-inch LED Screen",
+            "Backlit Keyboard",
+            "4GB Ram",
+            "256GB SSD",
+            "USB 3.0 ports",
+            "Still a decent machine for everyday use"
+        ],
+        "price": 250,
+        "stock": 2,
+        "active": true,
+        "image": "broken/image/link"
+    }
+]

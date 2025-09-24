@@ -4,45 +4,26 @@ const app = express()
 
 const PORT = process.env.PORT || 3000
 
-const computers = require('./data/computers.json')
+const computersRouter = require('./routes/computers.js')
+const guitarsRouter = require('./routes/guitars.js')
 
 app.use(express.json())
+
+// Map routes
+app.use('/computers', computersRouter)
+app.use('/guitars', guitarsRouter)
 
 app.get('/', (req, res) => {    
     return res.status(200).json({
         status: "Success",
-        message: "Welcome to the komputer-store API!",
+        message: "Welcome to the Noroff assignment API!",
         endpoints: [
             "GET '/computers': Returns all computers in the database.",
             "GET '/computers/{:id}': Returns a single computer where the ID matches.",
+            "GET '/guitars': Returns all guitars in the database.",
+            "GET '/guitars/{:id}': Returns a single guitar where the ID matches.",
         ]
     })
-})
-
-app.get('/computers', (req, res) => {
-    try {
-        return res.status(200).json(computers)
-    } catch(ex) {
-        console.error(ex.message)
-    }
-})
-
-app.get('/computers/:id', (req, res) => {
-    try {
-        const computerId = req.params.id
-    
-        const result = computers.find((c) => c.id === Number(computerId))
-
-        JSON.stringify()
-
-        console.log(`computerId: ${computerId}`)
-        console.log(`result: ${result}`)
-    
-        if (!result) return res.status(404).json({ status: "Error 404", message: `Computer with id: ${computerId} not found!` })
-        else return res.status(200).json(result)
-    } catch (ex) {
-        console.error(ex.message)
-    }
 })
 
 //Capture All 404 errors

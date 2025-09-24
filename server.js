@@ -16,7 +16,7 @@ app.use('/guitars', guitarsRouter)
 app.get('/', (req, res) => {    
     return res.status(200).json({
         status: "Success",
-        message: "Welcome to the Noroff assignment API!",
+        message: "Welcome to the Noroff API!",
         endpoints: [
             "GET '/computers': Returns all computers in the database.",
             "GET '/computers/{:id}': Returns a single computer where the ID matches.",

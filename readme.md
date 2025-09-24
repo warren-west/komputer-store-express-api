@@ -63,7 +63,7 @@ Retrieves a computer by ID.
 ```
 
 ## Error Responses
-If the queried ID does not exist, an error 400 is returned.
+If the queried ID does not exist, an error 404 is returned.
 
 ```json
 {

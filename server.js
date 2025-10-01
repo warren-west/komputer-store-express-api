@@ -5,12 +5,14 @@ const app = express()
 const PORT = process.env.PORT || 3000
 
 const computersRouter = require('./routes/computers.js')
+const coffeesRouter = require('./routes/coffees.js')
 const guitarsRouter = require('./routes/guitars.js')
 
 app.use(express.json())
 
 // Map routes
 app.use('/computers', computersRouter)
+app.use('/coffees', coffeesRouter)
 app.use('/guitars', guitarsRouter)
 
 app.get('/', (req, res) => {    

@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "description": "Americano",
+        "price": 15.99,
+        "discountPerc": 20,
+        "isOnSale": false
+    },
+    {
+        "id": 2,
+        "description": "Matcha",
+        "price": 16.99,
+        "discountPerc": 20,
+        "isOnSale": true
+    },
+    {
+        "id": 3,
+        "description": "Latte",
+        "price": 19.99,
+        "discountPerc": 20,
+        "isOnSale": false
+    },
+    {
+        "id": 4,
+        "description": "Cappuccino",
+        "price": 18.99,
+        "discountPerc": 20,
+        "isOnSale": false
+    },
+    {
+        "id": 5,
+        "description": "Pumpkin Spice Latte",
+        "price": 22.99,
+        "discountPerc": 20,
+        "isOnSale": true
+    },
+    {
+        "id": 6,
+        "description": "Green Tea",
+        "price": 9.99,
+        "discountPerc": 20,
+        "isOnSale": false
+    },
+    {
+        "id": 7,
+        "description": "Herbal Tea",
+        "price": 11.99,
+        "discountPerc": 20,
+        "isOnSale": true
+    }
+]
